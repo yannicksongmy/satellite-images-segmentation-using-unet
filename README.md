@@ -74,7 +74,7 @@ The better summary of our training pipeline is :
 ## Evaluation
 We used the **Dice loss** to evaluate our model. This function is based on the [Dice-Sørensen](https://en.wikipedia.org/wiki/Dice-S%C3%B8rensen_coefficient) coefficient and is very common in image segmentation tasks because it is more robust to the class imbalances than other common loss functions.
 
-We also used the **Intersection over Union (IoU)** metric, which is also a common metric used for semantic segmentatin because it penalize false positives.
+We also used the **Intersection over Union (IoU)** metric, which is also a common metric used for semantic segmentation because it penalizes false positives.
 
 Other metrics, like **Precision, Recall, Accuracy, and F1-score** are also used.
 
