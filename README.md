@@ -1,6 +1,6 @@
 # satellite-images-segmentation-using-unet
 
-Project on Semantic Segmentation of Satellite Images. This work was conducted as part of the _Normes et Nouvelles Générations de Compression_ class given by Dorsaf SEBAI, Eng. Dr. HDR. in Computer Science during my second year of master's studies (Data Science Master @ENSI, January 2026).
+Project on Semantic Segmentation of Satellite Images. This work was conducted as part of the _Normes et Nouvelles Générations de Compression_ class given by Mrs. Dorsaf SEBAI, Eng. Dr. HDR. in Computer Science during my second year of master's studies (Data Science Master @ENSI, January 2026).
 
 ## Project overview
 This project aims to train a deep learning model that will be capable to classify different types of land cover from satellite images. 
@@ -38,7 +38,7 @@ In this project, we _fine-tuned_ a **U-Net** with a **ResNet18** encoder pretain
 
 We work with some common tricks, including:
 1. Working with smaller **patches (256x256 pixels)** extracted from the large satellite images.
-2. Using **minibatch learning**, where we show the model a small number of patches at a time.
+2. Using **minibatch learning (32)**, where we show the model a small number of patches at a time.
 3. Running the optimisation for several **epochs (30)**, that is, we repeatedly show the model the entire dataset during training.
 
 We used these tricks to efficiently train our model (without consuming all our memory).
@@ -49,7 +49,6 @@ We used the popular deep learning framework **PyTorch** for the models and the t
 So you will have to run this following commands before starting the notebook.
 
 ```markdown
-```python
 try: 
     import pytorch_lightning as pl
 except ImportError:
@@ -74,7 +73,7 @@ The better summary of our training pipeline is :
 ## Evaluation
 We used the **Dice loss** to evaluate our model. This function is based on the [Dice-Sørensen](https://en.wikipedia.org/wiki/Dice-S%C3%B8rensen_coefficient) coefficient and is very common in image segmentation tasks because it is more robust to the class imbalances than other common loss functions.
 
-We also used the **Intersection over Union** metric, which is also a common metric used for semantic segmentatin because it penalize false positives.
+We also used the **Intersection over Union (IoU)** metric, which is also a common metric used for semantic segmentatin because it penalize false positives.
 
 Other metrics, like **Precision, Recall, Accuracy, and F1-score** are also used.
 
