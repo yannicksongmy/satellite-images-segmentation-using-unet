@@ -44,9 +44,9 @@ We work with some common tricks, including:
 We used these tricks to efficiently train our model (without consuming all our memory).
 
 ## Requirements
-We used the popular deep learning framework **PyTorch** for the models and the training as well as**PyTorch Lightning**, which is useful library containing many functions to make training models easier (especially on GPUs). Finally, we used **Segmentation Models PyTorch**, which makes it easy to automatically download and set-up pretrained segmentation models for PyTorch.
+We used the popular deep learning framework **PyTorch** for the models and the training as well as **PyTorch Lightning**, which is useful library containing many functions to make training models easier (especially on GPUs). Finally, we used **Segmentation Models PyTorch**, which makes it easy to automatically download and set-up pretrained segmentation models for PyTorch.
 
-So you will have to run this following commands before starting the notebook.
+So you will have to run this following commands before starting the notebook:
 
 ```markdown
 ```python
