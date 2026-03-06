@@ -49,6 +49,7 @@ We used the popular deep learning framework **PyTorch** for the models and the t
 So you will have to run this following commands before starting the notebook.
 
 ```markdown
+```python
 try: 
     import pytorch_lightning as pl
 except ImportError:
@@ -80,7 +81,7 @@ Other metrics, like **Precision, Recall, Accuracy, and F1-score** are also used.
 ## Results
 
 ## References
-1. Demir, K. Koperski, D. Lindenbaum, G. Pang, J. Huang, S. Basu, F. Hughes, D. Tuia et R. Raskar, **[DeepGlobe 2018 : A Challenge to Parse the Earth Through Satellite Images](https://arxiv.org/abs/1805.06561)** in _proceeding of The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops_, 2018.
+1. Demir, K. Koperski, D. Lindenbaum, G. Pang, J. Huang, S. Basu, F. Hughes, D. Tuia et R. Raskar, **[DeepGlobe 2018 : A Challenge to Parse the Earth Through Satellite Images](https://arxiv.org/abs/1805.06561)**, in _proceeding of The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops_, 2018.
 2. R. Olaf, F. Philipp et B. Thomas, **[U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)**, arXiv, 2015.
    
 ## Note
