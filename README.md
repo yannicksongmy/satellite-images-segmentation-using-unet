@@ -1,4 +1,4 @@
-# satellite-images-segmentation-using-unet
+# Satellite images segmentation using unet
 
 Project on Semantic Segmentation of Satellite Images. This work was conducted as part of the _Normes et Nouvelles Générations de Compression_ class given by Mrs. Dorsaf SEBAI, Eng. Dr. HDR. in Computer Science during my second year of master's studies (Data Science Master @ENSI, January 2026).
 
