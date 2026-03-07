@@ -1,0 +1,14 @@
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore dataset 
+data/
+
+# Ignore the generated reports
+reports/
+
+#Ignore the heavy results (checkpoints)
+outputs/
+
+#Ignore figures
+figures/
