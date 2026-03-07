@@ -29,7 +29,7 @@ Each satelitte image is paired with a mask image for land cover annotation. The 
 - **Barren land:** Mountain, rock, dessert, beach, land with no vegetation.
 - **Unknown:** Clouds and others.
 
-sample_results/bottom_3_visualisation.svg
+![The top 3 images with the most uniform class distribution](sample_results/bottom_3_visualisation.svg)
 
 Due to the variety of land cover types and the density of annotations, this dataset is more challenging than many of its predecessors. For more information, you can refer to the original [paper](https://arxiv.org/abs/1805.06561).
 
@@ -79,7 +79,8 @@ We also used the **Intersection over Union (IoU)** metric, which is also a commo
 Other metrics, like **Precision, Recall, Accuracy, and F1-score** are also used.
 
 ## Results
-samples_results/val_examples_best.svg
+![The top 3 images predictions sorted by IoU (descending)](sample_results/val_examples_best.svg)
+
 ## References
 1. Demir, K. Koperski, D. Lindenbaum, G. Pang, J. Huang, S. Basu, F. Hughes, D. Tuia and R. Raskar, **[DeepGlobe 2018 : A Challenge to Parse the Earth Through Satellite Images](https://arxiv.org/abs/1805.06561)**, in _proceeding of The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops_, 2018.
 
