@@ -92,7 +92,9 @@ Other metrics, like **Precision, Recall, Accuracy, and F1-score** are also used.
 
 2. R. Olaf, F. Philipp and B. Thomas, **[U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)**, _arXiv_, 2015.
    
-## Note
-Some parts of this work were inspired by this [Kaggle notebook](https://www.kaggle.com/code/kstensbo/deep-learning-for-land-cover-classification/notebook).
+## Acknowledgment
+Some parts of this work were inspired by this [Kaggle notebook](https://www.kaggle.com/code/kstensbo/deep-learning-for-land-cover-classification/notebook) released under the Apache 2.0 license. 
+
+The implementation in this repository was adapted for this project.
 
 
