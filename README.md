@@ -31,7 +31,8 @@ Each satelitte image is paired with a mask image for land cover annotation. The 
 
 ![The top 3 images with the most uniform class distribution](sample_results/bottom_3_visualisation.svg)
 
-Due to the variety of land cover types and the density of annotations, this dataset is more challenging than many of its predecessors. For more information, you can refer to the original [paper](https://arxiv.org/abs/1805.06561).
+
+Due to size contraints, the dataset is not included in the repository. For more information, you can refer to the original [paper](https://arxiv.org/abs/1805.06561). 
 
 ## Model
 In this project, we _fine-tuned_ a **U-Net** with a **ResNet18** encoder pretained on **ImageNet dataset**.
@@ -64,6 +65,11 @@ try:
     import albumentations as A
 except ImportError:
     !pip install -U albumentationsx -q
+```
+
+You can also run the following command:
+```bash
+pip install -r requirements.txt
 ```
 ## Training pipeline
 The better summary of our training pipeline is :
