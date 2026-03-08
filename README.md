@@ -86,15 +86,15 @@ Other metrics, like **Precision, Recall, Accuracy, and F1-score** are also used.
 
 ## Results
 ![The top 3 images predictions sorted by IoU (descending)](sample_results/val_examples_best.svg)
-
-## References
-1. Demir, K. Koperski, D. Lindenbaum, G. Pang, J. Huang, S. Basu, F. Hughes, D. Tuia and R. Raskar, **[DeepGlobe 2018 : A Challenge to Parse the Earth Through Satellite Images](https://arxiv.org/abs/1805.06561)**, in _proceeding of The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops_, 2018.
-
-2. R. Olaf, F. Philipp and B. Thomas, **[U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)**, _arXiv_, 2015.
    
 ## Acknowledgment
 Some parts of this work were inspired by this [Kaggle notebook](https://www.kaggle.com/code/kstensbo/deep-learning-for-land-cover-classification/notebook) released under the Apache 2.0 license. 
 
 The implementation in this repository was adapted for this project.
+
+## References
+1. Demir, K. Koperski, D. Lindenbaum, G. Pang, J. Huang, S. Basu, F. Hughes, D. Tuia and R. Raskar, **[DeepGlobe 2018 : A Challenge to Parse the Earth Through Satellite Images](https://arxiv.org/abs/1805.06561)**, in _proceeding of The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops_, 2018.
+
+2. R. Olaf, F. Philipp and B. Thomas, **[U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)**, _arXiv_, 2015.
 
 
